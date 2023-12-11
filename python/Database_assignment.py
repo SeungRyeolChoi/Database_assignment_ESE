@@ -168,7 +168,7 @@ if __name__ == '__main__':
         target_crs = '+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs'
         start_page = 1
         #json file row 개수
-        end_page = 70000
+        end_page = 127274
         #데이터반환이 1000개로 제한되어 있기때문에 1000단위로 반복
         page_size = 1000
         sung_dong = []
