@@ -33,8 +33,8 @@ def getGeoCode(address, client_id, client_secret):
 if __name__ == '__main__':
     # 주소와 인증키 설정
     address = "서울특별시 성동구 서울숲2길 32-14"
-    client_id = 'ttudos8cc0'
-    client_secret = 'zEIKk9phr1yoo9lElkso95KiEifmHyVvV516W7kx'
+    client_id = client_id #실제로 입력해야 하는 부분
+    client_secret = client_secret #실제로 입력해야 하는 부분
 
     # 지정한 주소의 위도 경도 가져오기
     response = getGeoCode(address, client_id, client_secret)
@@ -48,7 +48,7 @@ if __name__ == '__main__':
         
         #총 3페이지가 있음
         params1 = {
-            'serviceKey': 'SSNDojDBnt4vUKsjgURAm342jCB5xNa15HGEFJ9IzlcB+A40MLb5ozuW++FWu4u04zIZfk/XvLzh3IaedMHa2g==',
+            'serviceKey': '', #본인의 서비스키 입력
             'pageNo': '1',
             'numOfRows': '9999',
             'zscode' : '11200'
@@ -56,7 +56,7 @@ if __name__ == '__main__':
         
         
         params2 = {
-            'serviceKey': 'SSNDojDBnt4vUKsjgURAm342jCB5xNa15HGEFJ9IzlcB+A40MLb5ozuW++FWu4u04zIZfk/XvLzh3IaedMHa2g==',
+            'serviceKey': '', #본인의 서비스키 입력
             'pageNo': '2',
             'numOfRows': '2459',
             'zscode' : '11200'
@@ -64,7 +64,7 @@ if __name__ == '__main__':
         
         
         params3 = {
-            'serviceKey': 'SSNDojDBnt4vUKsjgURAm342jCB5xNa15HGEFJ9IzlcB+A40MLb5ozuW++FWu4u04zIZfk/XvLzh3IaedMHa2g==',
+            'serviceKey': '', #본인의 서비스키 입력
             'pageNo': '3',
             'numOfRows': '1129',
             'zscode' : '11200'
